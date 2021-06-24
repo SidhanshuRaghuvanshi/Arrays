@@ -1,0 +1,9 @@
+For checking even and odd:
+i%2 == 0 can be replaced with (i&1 == 0) for even
+(i&1 != 0) for odd
+
+Divide by 2:
+i/2 can be replaced with (i>>1)
+
+Multiply by 2:
+i*2 can be replaced with (i<<1)
